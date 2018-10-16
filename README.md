@@ -1,6 +1,7 @@
 # <div align=center>Android自定义View学习</div>
 
 常用的属性如下：
+
 |属性|解释|举例|
 |-|-|-|
 |`string`|字符串|`<attr name="text" format="string" />`|
