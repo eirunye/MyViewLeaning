@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:eirunye="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.eirunye.myviewleaning.view.MyView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        eirunye:myText="哈哈，这是自定义view的属性"
+        eirunye:myTextSize="40"
+        eirunye:textColor="#FFFF0015" />
+</android.support.constraint.ConstraintLayout>

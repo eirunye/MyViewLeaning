@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="myText" format="string" />
+    <attr name="textColor" format="color" />
+    <attr name="myTextSize" format="integer"/>
+    <declare-styleable name="MyView">
+        <attr name="myText"/>
+        <attr name="textColor"/>
+        <attr name="myTextSize"/>
+    </declare-styleable>
+</resources>
