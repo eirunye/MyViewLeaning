@@ -8,4 +8,13 @@
         <attr name="textColor"/>
         <attr name="myTextSize"/>
     </declare-styleable>
+
+    <declare-styleable name="MyRectView" >
+        <attr name="rect_color" format="color"/>
+        <attr name="rect_width" format="integer"/>
+        <attr name="rect_Style" format="enum">
+            <enum name="FILL" value="0"/>
+            <enum name="STROKE" value="1"/>
+        </attr>
+    </declare-styleable>
 </resources>

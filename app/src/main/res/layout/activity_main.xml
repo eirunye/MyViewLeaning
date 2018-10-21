@@ -6,10 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.eirunye.myviewleaning.view.MyView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        eirunye:myText="哈哈，这是自定义view的属性"
-        eirunye:myTextSize="40"
-        eirunye:textColor="#FFFF0015" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.eirunye.myviewleaning.view.MyView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            eirunye:myText="哈哈，这是自定义view的属性"
+            eirunye:myTextSize="40"
+            android:visibility="gone"
+            eirunye:textColor="#FFFF0015" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <com.eirunye.myviewleaning.view.MyRectView
+            android:id="@+id/myRectView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            eirunye:rect_Style="STROKE"
+            eirunye:rect_color="#ff0dddd0"
+            eirunye:rect_width="10" />
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
