@@ -22,6 +22,7 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
+            android:visibility="gone"
             android:layout_height="wrap_content"
             android:src="@mipmap/ic_launcher" />
 
@@ -30,8 +31,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             eirunye:rect_Style="STROKE"
+            android:visibility="gone"
             eirunye:rect_color="#ff0dddd0"
             eirunye:rect_width="10" />
+
+        <com.eirunye.myviewleaning.view.MyView1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

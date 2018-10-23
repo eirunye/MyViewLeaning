@@ -17,4 +17,8 @@
             <enum name="STROKE" value="1"/>
         </attr>
     </declare-styleable>
+    <declare-styleable name="MyView1">
+
+
+    </declare-styleable>
 </resources>
